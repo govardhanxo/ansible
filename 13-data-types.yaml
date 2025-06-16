@@ -5,7 +5,7 @@
     DURATION: 120 #This is number
     COURSE: "DevSecOps with AWS" #string
     IS_LIVE: true #boolean
-    TOOLS: #list []
+    TOOLS: #list referred as []
     - Linux
     - Shell
     - Ansible 
