@@ -4,7 +4,7 @@
   tasks:
   - name: print songs
     ansible.builtin.debug:
-      msg: "Play, {{ items }}" #Item here is reserved keyword
+      msg: "Play, {{ item }}" #Item here is reserved keyword
     loop:
     - Blinding Lights
     - Starboy
