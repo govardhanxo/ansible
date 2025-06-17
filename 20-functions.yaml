@@ -35,3 +35,9 @@
       name: Govardhan Reddy C K L 
     ansible.builtin.debug:
       msg: "Hello {{ name | upper }}"
+
+  - name: convert to lowercase
+    vars:
+      name: GOVARDHAN REDDY CKL
+    ansible.builtin.debug:
+      msg: "Hello {{ name | lower }"
