@@ -1,0 +1,12 @@
+- name: loops
+  hosts: local
+  connection: local
+  tasks:
+  - name: print songs
+    ansible.builtin.debug:
+      msg: "Play, {{ items }}" #Item here is reserved keyword
+    loop:
+    - Blinding Lights
+    - Starboy
+    - Timeless
+    - Cry For Me
